@@ -13,6 +13,8 @@
 		FB58C20B1E9CD06D00AE5531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB58C2091E9CD06D00AE5531 /* Main.storyboard */; };
 		FB58C20D1E9CD06D00AE5531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB58C20C1E9CD06D00AE5531 /* Assets.xcassets */; };
 		FB58C2101E9CD06D00AE5531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB58C20E1E9CD06D00AE5531 /* LaunchScreen.storyboard */; };
+		FB58C2191E9CD10E00AE5531 /* JMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58C2181E9CD10E00AE5531 /* JMWebViewController.m */; };
+		FB58C21B1E9CD14700AE5531 /* new_file.html in Resources */ = {isa = PBXBuildFile; fileRef = FB58C21A1E9CD14700AE5531 /* new_file.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		FB58C20C1E9CD06D00AE5531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB58C20F1E9CD06D00AE5531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB58C2111E9CD06D00AE5531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB58C2171E9CD10E00AE5531 /* JMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMWebViewController.h; sourceTree = "<group>"; };
+		FB58C2181E9CD10E00AE5531 /* JMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMWebViewController.m; sourceTree = "<group>"; };
+		FB58C21A1E9CD14700AE5531 /* new_file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = new_file.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				FB58C2041E9CD06D00AE5531 /* AppDelegate.m */,
 				FB58C2061E9CD06D00AE5531 /* ViewController.h */,
 				FB58C2071E9CD06D00AE5531 /* ViewController.m */,
+				FB58C2171E9CD10E00AE5531 /* JMWebViewController.h */,
+				FB58C2181E9CD10E00AE5531 /* JMWebViewController.m */,
+				FB58C21A1E9CD14700AE5531 /* new_file.html */,
 				FB58C2091E9CD06D00AE5531 /* Main.storyboard */,
 				FB58C20C1E9CD06D00AE5531 /* Assets.xcassets */,
 				FB58C20E1E9CD06D00AE5531 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB58C2101E9CD06D00AE5531 /* LaunchScreen.storyboard in Resources */,
+				FB58C21B1E9CD14700AE5531 /* new_file.html in Resources */,
 				FB58C20D1E9CD06D00AE5531 /* Assets.xcassets in Resources */,
 				FB58C20B1E9CD06D00AE5531 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB58C2191E9CD10E00AE5531 /* JMWebViewController.m in Sources */,
 				FB58C2081E9CD06D00AE5531 /* ViewController.m in Sources */,
 				FB58C2051E9CD06D00AE5531 /* AppDelegate.m in Sources */,
 				FB58C2021E9CD06D00AE5531 /* main.m in Sources */,
